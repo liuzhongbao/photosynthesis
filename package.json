@@ -1,0 +1,49 @@
+{
+  "name": "i-saw-photosynthesis",
+  "version": "1.0.0",
+  "description": "This is for you",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config ./node_modules/photosynthesis-for-you/lib/webpack.dev.js --open",
+    "build": "webpack --config ./node_modules/photosynthesis-for-you/lib/webpack.prod.js"
+  },
+  "keywords": ["node.js","javascript"],
+  "author": "刘中保",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.6.3",
+    "antd": "^3.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "dva": "^2.4.1",
+    "lib-flexible": "^0.3.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "regenerator": "^0.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-redux-saga": "^1.1.1",
+    "photosynthesis-for-you": "^1.0.0",
+    "photosynthesis-two": "^1.0.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
