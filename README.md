@@ -1,3 +1,3 @@
-# photosynthesis
+<p align="center"><a href="https://vuejs.org" target="_blank" rel="noopener noreferrer"><img width="100" src="./1.png" alt="Vue logo"></a></p>
 
-## 请大家多多期待二期
+# photosynthesis
