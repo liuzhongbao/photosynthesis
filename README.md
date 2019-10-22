@@ -39,4 +39,7 @@ It can be seen from the comparison that the first two photosynthesizations are s
 
 2. The design of the project directory is built by referring to the project design in our work, which is simple and clear, and convenient for team cooperation.
 
+![photosynthesis的普通构建](https://acar-images.oss-cn-hangzhou.aliyuncs.com/6010A68F-1E5C-467A-A61B-0C6D84DD142E.png)
+![photosynthesis的多进程构建](https://acar-images.oss-cn-hangzhou.aliyuncs.com/2E66B705-8328-4CB7-9F09-99CA3D98FB1B.png)
+
 ## Use
