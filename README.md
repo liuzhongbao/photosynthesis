@@ -38,3 +38,5 @@ It can be seen from the comparison that the first two photosynthesizations are s
 1. In terms of construction speed, photosynthesis has significantly improved by using multi process packaging, multi page packaging, SSR, dynamic import, and support for multi-terminal, currently PC / mobile. At the same time, based on the ideal of microkernel, it reduces the amount of code and is simple and easy to use while writing the bottom layer with the characteristics of scalability and reusability.
 
 2. The design of the project directory is built by referring to the project design in our work, which is simple and clear, and convenient for team cooperation.
+
+## Use
