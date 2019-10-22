@@ -6,9 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --config ./node_modules/photosynthesis-for-you/lib/webpack.dev.js --open",
-    "build": "webpack --config ./node_modules/photosynthesis-for-you/lib/webpack.prod.js"
+    "build": "webpack --config ./node_modules/photosynthesis-for-you/lib/webpack.prod.js",
+    "multipleProcess": "webpack --config ./node_modules/photosynthesis-for-you/lib/webpack.multiProcess.js"
   },
-  "keywords": ["node.js","javascript"],
+  "keywords": [
+    "node.js",
+    "javascript"
+  ],
   "author": "刘中保",
   "license": "ISC",
   "dependencies": {
@@ -40,7 +44,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-redux-saga": "^1.1.1",
-    "photosynthesis-for-you": "^1.0.0",
+    "photosynthesis-for-you": "^1.0.1",
     "photosynthesis-two": "^1.0.0",
     "webpack": "^4.31.0",
     "webpack-cli": "^3.3.2",
