@@ -41,5 +41,6 @@ It can be seen from the comparison that the first two photosynthesizations are s
 
 - [photosynthesis的普通构建](https://acar-images.oss-cn-hangzhou.aliyuncs.com/6010A68F-1E5C-467A-A61B-0C6D84DD142E.png).
 - [photosynthesis的多进程构建](https://acar-images.oss-cn-hangzhou.aliyuncs.com/2E66B705-8328-4CB7-9F09-99CA3D98FB1B.png).
+- [photosynthesis的多页面打包](https://acar-images.oss-cn-hangzhou.aliyuncs.com/B24A39A1-A0D1-4204-8E4C-CB05CBF5ADF2.png).
 
 ## Use
