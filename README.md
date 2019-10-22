@@ -10,3 +10,7 @@
 
 <h2 align="center">Photosynthesis</h2>
 
+Photosynthesis is a set of complete scaffolding system that supports multi-terminal (PC / mobile) and combines with the latest version of webback4. The whole process of project 1.0 from directory structure to webback configuration is completed by the author alone. Open source this project is also the hope that people with the same aspirations can come together to maintain this ecosystem, let's build a prosperous circle! [backers](https://github.com/vuejs/vue/blob/dev/BACKERS.md). If you want to join us, please consider:
+
+- [Please contact me through this email](liuzhongbao_999@163.com).
+- [You can also contact me through this wechat](a15751707551).
