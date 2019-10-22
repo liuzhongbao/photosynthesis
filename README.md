@@ -21,15 +21,20 @@ The writing process of the architecture is very lonely. You can't see the result
 
 ## What's the difference with tradition?
 
-#### 传统脚手架 create-react-app
+#### create-react-app
 | 完整性 | 性能 | 文档完善度 |
 |---------|--------|-------------|
-| 50%     |   60%     |    90%    |   
+| 40%     |   60%     |    90%    |   
 
 #### photosynthesis 
 | 完整性 | 性能 | 文档完善度 |
 |---------|--------|-------------|
-| 70%     |   80%     |    20%    |   
+| 60%     |   80%     |    20%    |   
 
+It can be seen from the comparison that the first two photosynthesizations are successful. Because the author's architecture is still in its infancy, more partners are needed to improve it, especially in document development. Because the author has been developing react for a long time, the first stage of the project is mainly react.Most of them can look forward to the follow-up progress.
 
+## What are the advantages of photosynthesis?
 
+1. In terms of construction speed, photosynthesis has significantly improved by using multi process packaging, multi page packaging, SSR, dynamic import, and support for multi-terminal, currently PC / mobile. At the same time, based on the ideal of microkernel, it reduces the amount of code and is simple and easy to use while writing the bottom layer with the characteristics of scalability and reusability.
+
+2. The design of the project directory is built by referring to the project design in our work, which is simple and clear, and convenient for team cooperation.
