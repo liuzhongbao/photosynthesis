@@ -44,3 +44,12 @@ It can be seen from the comparison that the first two photosynthesizations are s
 - [photosynthesis的多页面打包](https://acar-images.oss-cn-hangzhou.aliyuncs.com/B24A39A1-A0D1-4204-8E4C-CB05CBF5ADF2.png).
 
 ## Use
+
+```
+1. git clone https://github.com/liuzhongbao/photosynthesis.git
+
+2. npm install 
+
+3. 开发环境 （dev） npm run dev
+   生产环境 （build）npm run build
+```
