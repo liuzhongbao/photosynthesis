@@ -26,11 +26,11 @@ The writing process of the architecture is very lonely. You can't see the result
 |---------|--------|-------------|
 | 40%     |   60%     |    90%    |   
 
-#### photosynthesis vs create-react-app
-| Features | umi-request | fetch | axios |
+#### photosynthesis vs create-react-app vs else
+| Features | photosynthesis | create-react-app | else |
 | :---------- | :-------------- | :-------------- | :-------------- |
-| implementation | Browser native support | Browser native support | XMLHttpRequest |
-| size | 9k | 4k (polyfill) | 14k |
+| performance | 80% | 60% | 30% |
+| implementation | Browser native support | Browser native support | Browser native support |
 | query simplification | ✅ | ❎ | ✅ |
 | post simplification | ✅ | ❎ | ❎ |
 | timeout | ✅ | ❎ | ✅ |
