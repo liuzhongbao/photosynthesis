@@ -21,11 +21,6 @@ The writing process of the architecture is very lonely. You can't see the result
 
 ## What's the difference with tradition?
 
-#### create-react-app
-| 完整性 | 性能 | 文档完善度 |
-|---------|--------|-------------|
-| 40%     |   60%     |    90%    |   
-
 #### photosynthesis vs create-react-app vs else
 | Features | photosynthesis | create-react-app | else |
 | :---------- | :-------------- | :-------------- | :-------------- |
