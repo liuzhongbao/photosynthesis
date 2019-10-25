@@ -29,8 +29,6 @@ The writing process of the architecture is very lonely. You can't see the result
 #### photosynthesis vs create-react-app
 | Features | photosynthesis | create-react-app | Else |
 |---------|--------|-------------|
-| completeness | 60% |  50%  | 30% |
-| performance | 80% |  60%  | 30% |
 | documentPerfection | ❎ |  ✅ | ❎ |
 | query simplification | ✅ | ❎ | ✅ |
 | post simplification | ✅ | ❎ | ❎ |
