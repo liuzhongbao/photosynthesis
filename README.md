@@ -27,9 +27,10 @@ The writing process of the architecture is very lonely. You can't see the result
 | 40%     |   60%     |    90%    |   
 
 #### photosynthesis vs create-react-app
-| Features | photosynthesis | create-react-app | Else |
-|---------|--------|-------------|
-| documentPerfection | ❎ |  ✅ | ❎ |
+| Features | umi-request | fetch | axios |
+| :---------- | :-------------- | :-------------- | :-------------- |
+| implementation | Browser native support | Browser native support | XMLHttpRequest |
+| size | 9k | 4k (polyfill) | 14k |
 | query simplification | ✅ | ❎ | ✅ |
 | post simplification | ✅ | ❎ | ❎ |
 | timeout | ✅ | ❎ | ✅ |
