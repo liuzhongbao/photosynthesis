@@ -26,10 +26,12 @@ The writing process of the architecture is very lonely. You can't see the result
 |---------|--------|-------------|
 | 40%     |   60%     |    90%    |   
 
-#### photosynthesis 
-| 完整性 | 性能 | 文档完善度 |
+#### photosynthesis vs create-react-app
+| Features | photosynthesis | create-react-app | Else |
 |---------|--------|-------------|
-| 60%     |   80%     |    20%    |   
+| completeness | 60% |  50%  | 30% |
+| performance | 80% |  60%  | 30% |
+| documentPerfection | ❎ |  ✅ | ❎ |
 | query simplification | ✅ | ❎ | ✅ |
 | post simplification | ✅ | ❎ | ❎ |
 | timeout | ✅ | ❎ | ✅ |
