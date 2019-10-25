@@ -30,6 +30,18 @@ The writing process of the architecture is very lonely. You can't see the result
 | 完整性 | 性能 | 文档完善度 |
 |---------|--------|-------------|
 | 60%     |   80%     |    20%    |   
+| query simplification | ✅ | ❎ | ✅ |
+| post simplification | ✅ | ❎ | ❎ |
+| timeout | ✅ | ❎ | ✅ |
+| cache | ✅ | ❎ | ❎ |
+| error Check | ✅ | ❎ | ❎ |
+| error Handling | ✅ | ❎ | ✅ |
+| interceptor | ✅ | ❎ | ✅ |
+| prefix | ✅ | ❎ | ❎ |
+| suffix | ✅ | ❎ | ❎ |
+| processing gbk | ✅ | ❎ | ❎ |
+| middleware | ✅ | ❎ | ❎ |
+| cancel request | ✅ | ❎ | ✅ |
 
 It can be seen from the comparison that the first two photosynthesizations are successful. Because the author's architecture is still in its infancy, more partners are needed to improve it, especially in document development. Because the author has been developing react for a long time, the first stage of the project is mainly react.Most of them can look forward to the follow-up progress.
 
