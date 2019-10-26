@@ -1,14 +1,15 @@
 /*
- * @Author: liuzhongbao 
- * @Date: 2019-10-20 12:59:29 
- * @Last Modified by:   liuzhongbao 
- * @Last Modified time: 2019-10-20 12:59:29 
+ * @Author: liuzhongbao
+ * @Date: 2019-10-20 12:59:29
+ * @Last Modified by: liuzhongbao
+ * @Last Modified time: 2019-10-26 10:34:39
  */
+
+//  import {liuzhongbao,photosynthesis} from '@/servers/photosynthesis';
 
 // 集成环境 Dva的核心模块
 
 export default {
-    
   namespace: 'exam',
 
   state: {
@@ -24,5 +25,4 @@ export default {
   effects: {
     // 此处写generalter函数
   },
-
 };

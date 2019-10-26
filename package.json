@@ -4,7 +4,6 @@
   "description": "This is for you",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --config ./node_modules/photosynthesis-for-you/lib/webpack.dev.js --open",
     "build": "webpack --config ./node_modules/photosynthesis-for-you/lib/webpack.prod.js",
     "multipleProcess": "webpack --config ./node_modules/photosynthesis-for-you/lib/webpack.multiProcess.js"
@@ -26,7 +25,8 @@
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
     "redux": "^4.0.4",
-    "regenerator": "^0.13.1"
+    "regenerator": "^0.13.1",
+    "umi-request": "^1.2.8"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
@@ -44,7 +44,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-redux-saga": "^1.1.1",
-    "photosynthesis-for-you": "^1.0.1",
+    "photosynthesis-for-you": "^1.0.2",
     "photosynthesis-two": "^1.0.0",
     "webpack": "^4.31.0",
     "webpack-cli": "^3.3.2",

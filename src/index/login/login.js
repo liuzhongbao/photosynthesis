@@ -2,7 +2,7 @@
  * @Author: liuzhongbao
  * @Date: 2019-03-26 20:57:43
  * @Last Modified by: liuzhongbao
- * @Last Modified time: 2019-10-20 21:19:10
+ * @Last Modified time: 2019-10-26 10:08:39
  */
 
 import React, { Component } from 'react';
@@ -27,7 +27,7 @@ class Login extends Component {
         tabIndex="0"
         onKeyPress={() => this.Fn()}
       >
-        
+        <img className="photosynthesis" src="https://acar-images.oss-cn-hangzhou.aliyuncs.com/3.jpg" alt="My Awesome Image" />
         {Com ? <Com /> : null}
       </div>
     );

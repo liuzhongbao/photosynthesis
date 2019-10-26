@@ -13,6 +13,15 @@ body,
     width: 100%;
     height: 100%;
     position: relative;
+    background: #41454e;
+}
+
+.photosynthesis{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -310px;
+    margin-top: -170px;
 }
 
 .login-box {

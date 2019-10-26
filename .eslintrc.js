@@ -1,8 +1,8 @@
 /*
  * @Author: liuzhongbao 
  * @Date: 2019-10-20 21:23:49 
- * @Last Modified by:   liuzhongbao 
- * @Last Modified time: 2019-10-20 21:23:49 
+ * @Last Modified by: liuzhongbao
+ * @Last Modified time: 2019-10-26 10:04:01
  */
 
 module.exports = {
@@ -17,6 +17,7 @@ module.exports = {
   // 介于我们大部分规则是继承于airbnb中的规则，所以先采用它为主
   // 如果需要强制更改规则时对此处做定义就可以了。
   rules: {
+    "jsx-a11y/img-redundant-alt":"off",
     "import/newline-after-import":"off",
     "react/require-default-props": [0],
     "react/forbid-prop-types": [2, {"forbid": ["func"]}],

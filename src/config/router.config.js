@@ -1,8 +1,8 @@
 /*
  * @Author: liuzhongbao 
  * @Date: 2019-10-20 13:00:07 
- * @Last Modified by:   liuzhongbao 
- * @Last Modified time: 2019-10-20 13:00:07 
+ * @Last Modified by: liuzhongbao
+ * @Last Modified time: 2019-10-26 09:56:11
  */
 
 import LoadAsync from '../HOCcomponent/Autho/Loadasync.js';
@@ -11,7 +11,7 @@ import LoadAsync from '../HOCcomponent/Autho/Loadasync.js';
 const routerConfig = [
   {
     path: '/',
-    component: LoadAsync(() => import('../src/index/login/login.js')),
+    component: LoadAsync(() => import('@/index/login/login.js')),
   },
 ];
 
