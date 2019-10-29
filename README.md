@@ -15,7 +15,7 @@
 - [Please contact me through this email : liuzhongbao_999@163.com](https://mail.163.com/).
 - [You can also contact me through this wechat : a15751707551](https://wx.qq.com/).
 
-<p align="center"><a href="https://acar-images.oss-cn-hangzhou.aliyuncs.com/1%E7%9A%84%E5%89%AF%E6%9C%AC.png" target="_blank" rel="noopener noreferrer"><img width="100"src="https://acarimages.osscnhangzhou.aliyuncs.com/1%E7%9A%84%E5%89%AF%E6%9C%AC.png" alt="Vue logo"></a></p>
+<p align="center"><a href="https://acar-images.oss-cn-hangzhou.aliyuncs.com/1%E7%9A%84%E5%89%AF%E6%9C%AC.png" target="_blank" rel="noopener noreferrer"><img width="100"src="https://acar-images.oss-cn-hangzhou.aliyuncs.com/1%E7%9A%84%E5%89%AF%E6%9C%AC.png" alt="Vue logo"></a></p>
 
 #### Self perception
 
