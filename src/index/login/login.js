@@ -2,13 +2,14 @@
  * @Author: liuzhongbao
  * @Date: 2019-03-26 20:57:43
  * @Last Modified by: liuzhongbao
- * @Last Modified time: 2019-11-02 15:50:07
+ * @Last Modified time: 2019-11-02 17:49:18
  */
 
 import React, { Component } from 'react';
 import { connect } from 'dva';
 import { Photosynthesis } from '@/HOCcomponent/Autho/Photosynthesis.js';
 import './login.css';
+// import Style from '@/index/global.less';
 
 const mapState = store => {
   return { ...store.exam };
@@ -26,6 +27,7 @@ class Login extends Component {
 
   render() {
     const { Com } = this.state;
+    console.log(this.props);
     return (
       <div
         className="Liu"
