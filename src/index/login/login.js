@@ -2,13 +2,20 @@
  * @Author: liuzhongbao
  * @Date: 2019-03-26 20:57:43
  * @Last Modified by: liuzhongbao
- * @Last Modified time: 2019-10-26 10:08:39
+ * @Last Modified time: 2019-11-02 15:50:07
  */
 
 import React, { Component } from 'react';
 import { connect } from 'dva';
+import { Photosynthesis } from '@/HOCcomponent/Autho/Photosynthesis.js';
 import './login.css';
 
+const mapState = store => {
+  return { ...store.exam };
+};
+
+@connect(mapState)
+@Photosynthesis
 class Login extends Component {
   constructor(props) {
     super(props);
@@ -27,7 +34,11 @@ class Login extends Component {
         tabIndex="0"
         onKeyPress={() => this.Fn()}
       >
-        <img className="photosynthesis" src="https://acar-images.oss-cn-hangzhou.aliyuncs.com/3.jpg" alt="My Awesome Image" />
+        <img
+          className="photosynthesis"
+          src="https://acar-images.oss-cn-hangzhou.aliyuncs.com/3.jpg"
+          alt="My Awesome Image"
+        />
         {Com ? <Com /> : null}
       </div>
     );
@@ -40,14 +51,6 @@ class Login extends Component {
       });
     });
   }
-
-  componentDidMount() {
-    console.log(this.props);
-  }
 }
 
-const mapState = store => {
-  return { ...store.exam };
-};
-
-export default connect(mapState)(Login);
+export default Login;
