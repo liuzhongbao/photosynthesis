@@ -46,7 +46,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-redux-saga": "^1.1.1",
-    "photosynthesis-for-you": "^1.0.2",
+    "photosynthesis-for-you": "^1.0.3",
     "photosynthesis-two": "^1.0.0",
     "webpack": "^4.31.0",
     "webpack-cli": "^3.3.2",

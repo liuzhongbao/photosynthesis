@@ -2,18 +2,15 @@
  * @Author: liuzhongbao
  * @Date: 2019-03-26 20:57:43
  * @Last Modified by: liuzhongbao
- * @Last Modified time: 2019-11-02 17:49:18
+ * @Last Modified time: 2019-11-04 21:10:07
  */
 
 import React, { Component } from 'react';
 import { connect } from 'dva';
 import { Photosynthesis } from '@/HOCcomponent/Autho/Photosynthesis.js';
-import './login.css';
-// import Style from '@/index/global.less';
+import Style from '@/common/global.less';
 
-const mapState = store => {
-  return { ...store.exam };
-};
+const mapState = store => ({ ...store.exam });
 
 @connect(mapState)
 @Photosynthesis
@@ -30,14 +27,18 @@ class Login extends Component {
     console.log(this.props);
     return (
       <div
-        className="Liu"
+        className={Style.Liu}
         onClick={() => this.Fn()}
         role="button"
         tabIndex="0"
         onKeyPress={() => this.Fn()}
       >
+        {/* {给特定的主题定制颜色}
+        <div className={Style.liuzhongbao}>
+          <Button type="primay"></Button>
+        </div> */}
         <img
-          className="photosynthesis"
+          className={Style.photosynthesis}
           src="https://acar-images.oss-cn-hangzhou.aliyuncs.com/3.jpg"
           alt="My Awesome Image"
         />
