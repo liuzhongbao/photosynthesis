@@ -72,10 +72,10 @@ function create() {
   div.setAttribute(
     'style',
     `
-   position: absolute;
+   position: fixed;
    left: 0;
    top: 0;
-    width: auto;
+   width: auto;
    height: auto;
    padding: 10px;
    box-sizing: border-box;
@@ -83,7 +83,7 @@ function create() {
    background-color: #444;
    z-index: 100000;
    font-size: 12px;
-border-radius: 5px;
+   border-radius: 5px;
    line-height: 20px;
    max-width: 45%;
    `,
