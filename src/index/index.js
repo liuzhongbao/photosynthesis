@@ -2,12 +2,15 @@
  * @Author: liuzhongbao
  * @Date: 2019-10-20 14:00:47
  * @Last Modified by: liuzhongbao
- * @Last Modified time: 2019-11-02 17:47:16
+ * @Last Modified time: 2019-11-09 20:40:34
  */
 
 import dva from 'dva';
 import RootRouter from '@/router.js';
 import '@/common/css/index.css';
+import init from '@/config/webDom.js';
+
+init();
 
 const createHistory = require('history').createHashHistory;
 
