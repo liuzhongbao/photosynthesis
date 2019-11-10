@@ -56,10 +56,12 @@ It can be seen from the comparison that the first two photosynthesizations are s
 ## Use
 
 ```
-1. git clone https://github.com/liuzhongbao/photosynthesis.git
+1. 安装git与node.js环境:https://www.jianshu.com/p/7719bc967f85
 
-2. npm install 
+2. git clone https://github.com/liuzhongbao/photosynthesis.git
 
-3. 开发环境 （dev） npm run dev
+3. npm install 
+
+4. 开发环境 （dev） npm run dev
    生产环境 （build）npm run build
 ```
